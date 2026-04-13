@@ -1,0 +1,5 @@
+{
+  "name": "Declaração de Conteúdo - Cirion",
+  "description": "Aplicativo para geração de Declaração de Conteúdo dos Correios com assinatura digital e envio para o time de TI EUS Brasil.",
+  "requestFramePermissions": []
+}
