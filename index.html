@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Declaração de Conteúdo - Cirion</title>
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f3f4f6;
+      }
+      /* Remove setas de campos numéricos */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+
+      @media print {
+        @page {
+          margin: 0;
+          size: auto;
+        }
+        body {
+          background-color: white !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        #root {
+          width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        
+        /* Utilitários de Impressão Robustos */
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        
+        /* Força visibilidade na impressão, sobrescrevendo 'hidden' do Tailwind */
+        .print-visible {
+          display: inline-block !important;
+        }
+        .print-visible-block {
+          display: block !important;
+        }
+        .print-hidden {
+          display: none !important;
+        }
+        
+        /* Reseta estilos de container para impressão */
+        .print-reset-container {
+          max-width: none !important;
+          width: 100% !important;
+          box-shadow: none !important;
+          border: none !important;
+          margin: 0 !important;
+          padding: 1cm !important;
+        }
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "react-signature-canvas": "https://esm.sh/react-signature-canvas@^1.1.0-alpha.2",
+    "html-to-image": "https://esm.sh/html-to-image@^1.11.13",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/-Declara-o-de-Conte-do---Cirion/assets/index-t2bBRtsU.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
